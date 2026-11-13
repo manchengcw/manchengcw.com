@@ -1,0 +1,15 @@
+# Build inputs — contain third-party reference data (the pre-replacement
+# company details) and are not part of the published site. Keep local only.
+SPEC.txt
+tihuan.txt
+
+# Local development scaffolding (verification scripts, logs, deploy packages)
+_tools/
+_build/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.pid
